@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap" rel="stylesheet">
+	<script src="hotdog.js"></script>
+  <title>Joe's Hotdog Stand</title>
+</head>
+
+<body>
+	<div class="heading">
+		<h1>Joe's Hotdog Stand</h1>
+	</div>
+
+	<h2>Here's Your Order</h2>
+
+	<div class="order">	
+		<script language="javascript">
+		document.writeln("<br>Number of Hotdogs: " + hotdog + " at $" + hotdog_price + " is $" + total_hotdog_price.toFixed(2));
+		document.writeln("<br>Number of French Fries: " + fries + " at $" + fries_price.toFixed(2) + " is $" + total_fries_price.toFixed(2));
+		document.writeln("<br>Number of Drinks: " + drinks + " at $" + drinks_price.toFixed(2) + " is $" + total_drinks_price.toFixed(2));
+
+		if (subtotal.toFixed(2) >= 20.00) {
+			document.writeln("<br>You qualify for our 10% discount!");
+			document.writeln("<br>Subtotal: $" + subtotal_discount.toFixed(2));
+			document.writeln("<br>Meals Tax: $" + tax_discount.toFixed(2));
+			document.writeln("<br>Total: $" + total_discount.toFixed(2));
+		}
+		else {
+			document.writeln("<br>Subtotal: $" + subtotal.toFixed(2));
+			document.writeln("<br>Meals Tax: $" + tax.toFixed(2));
+			document.writeln("<br>Total: $" + total.toFixed(2));
+		}
+		</script>
+	</div>
+</body>
+</html>

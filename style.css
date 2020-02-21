@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+body {
+  background: url(/images/cover.png);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.heading {
+  background: url(/images/heading.png) no-repeat center center;
+  background-size: cover;
+  padding: 2em;
+  border-bottom: 1px solid white;
+  margin-bottom: 3em;
+}
+
+.heading h1 {
+  color: white;
+  display: inline;
+  padding: 0.2em 0.7em;
+  border: 3px solid white;
+}
