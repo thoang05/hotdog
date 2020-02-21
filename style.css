@@ -8,14 +8,14 @@
 }
 
 body {
-  background: url(images/cover.png);
+  background: url("images/cover.png");
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .heading {
-  background: url(images/heading.png) no-repeat center center;
+  background: url("images/heading.png") no-repeat center center;
   background-size: cover;
   padding: 2em;
   border-bottom: 1px solid white;
